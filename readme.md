@@ -52,10 +52,10 @@ Put credentials and workspace configs directly in `terraform.tfvars` (see exampl
 ---
 
 ## 3. Initialize Terraform
-cd "C:\path\to\your\project\fabric-deployer-terraform"
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-.\load_env.ps1
-terraform init
+cd "C:\path\to\your\project\fabric-deployer-terraform"  
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass  
+.\load_env.ps1  
+terraform init  
 
 ---
 
